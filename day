@@ -1,0 +1,2 @@
+#!/bin/bash
+cp -R tmpl "day${1}";pushd "day${1}";code .;popd
