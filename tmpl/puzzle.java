@@ -1,7 +1,6 @@
 import java.nio.file.*;
 import java.util.*;
 
-// https://adventofcode.com/2022/day/N
 public class puzzle {
 
     private List<String> input;
@@ -10,11 +9,18 @@ public class puzzle {
         input = Files.readAllLines(Path.of(filename));
     }
 
-    public int part1() { return 0; }
+    // init / globals go here
 
-    public int part2() { return 0; }
+    public int part1() {
+        // clever goes here
+        return 0;
+    }
 
-    // should be able to template this stuff
+    public int part2() {
+        // more clever goes here
+        return 0;
+    }
+
     public static void main(String[] args) throws Exception {
         var puzzle = new puzzle(args[0]);
         System.out.println("part1: " + puzzle.part1());
