@@ -3,7 +3,7 @@ YEAR=2022
 DAY=${1}
 
 # grab this once via dev tools from any request after you've logged into AoC
-COOKIE=53616c7465645f5fc12e8e87b049559e8de39eafd8dfd274e29f4507b3947d863cdfdd3824155770990abd6e9aa4620dbe32c453a04a2c892e0f6149e638d516
+COOKIE=<auth cookie goes here>
 
 cp -R tmpl "day${DAY}"
 pushd "day${DAY}"
